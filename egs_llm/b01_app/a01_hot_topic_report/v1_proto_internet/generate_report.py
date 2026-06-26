@@ -126,7 +126,7 @@ class Reporter:
 
 def main():
     llm_config = {
-        "llm_server_url": "http://localhost:8000/v1",
+        "llm_server_url": "http://localhost:8005/v1",
         "llm_mdl_name": "Qwen2-7B-Instruct",
         "llm_api_key": "EMPTY",
         "llm_max_tokens": 6500,  # for completion
